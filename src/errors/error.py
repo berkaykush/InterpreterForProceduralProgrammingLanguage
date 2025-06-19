@@ -14,3 +14,7 @@ class LexerError(Error):
 class ParserError(Error):
     UNEXPECTED_TOKEN = "Unexpected token"
     EXPECTED_TOKEN = "Expected token"
+
+
+class SemanticError(Error):
+    pass
