@@ -18,3 +18,8 @@ class ParserError(Error):
 
 class SemanticError(Error):
     pass
+
+
+class InterpreterError(Error):
+    DIVISION_BY_ZERO = "Division by zero detected"
+    MODULO_BY_ZERO = "Modulo by zero detected"

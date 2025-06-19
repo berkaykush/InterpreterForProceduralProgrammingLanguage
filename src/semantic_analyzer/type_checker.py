@@ -5,7 +5,7 @@ from src.semantic_analyzer.symbol_table import BuiltInTypeSymbol, RangeSymbol
 
 class TypeChecker:
     """
-    Inspired by the rules from Java
+    Inspired by the rules of Java
     """
 
     @staticmethod
