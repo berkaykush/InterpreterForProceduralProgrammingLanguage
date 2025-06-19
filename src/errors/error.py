@@ -9,3 +9,8 @@ class Error(Exception):
 
 class LexerError(Error):
     pass
+
+
+class ParserError(Error):
+    UNEXPECTED_TOKEN = "Unexpected token"
+    EXPECTED_TOKEN = "Expected token"
