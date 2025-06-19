@@ -1,7 +1,7 @@
 class Token:
     EOF = "EOF"
     IDENTIFIER = "IDENTIFIER"  # An identifier is a combination of letters and numbers that begins with a letter
-                              # and can be followed by any number of additional letters and numbers.
+    # and can be followed by any number of additional letters and numbers.
 
     SEMICOLON = ";"
     COLON = ":"
